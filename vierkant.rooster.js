@@ -1,10 +1,11 @@
-var vierkant = {
-  "user": null,
-  
+var vierkant = {  
   "rooster": function(user){
-    if(rooster == null)
-      return alert('user == null');
-      
-      this.user = user;
+	return {
+		"user": user,
+		
+		"hasVierkantRooster": function(){
+			return true;
+		}
+	};
   }
 };
